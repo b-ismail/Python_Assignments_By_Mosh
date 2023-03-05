@@ -13,7 +13,7 @@ digits = {
 phone = input("Phone: ")
 string = ""
 for item in phone:
-    string += f'{digits.get(int(item))} '
+    string += f'{digits.get(int(item), "!")} '
 print(string)
 
 #  another way
